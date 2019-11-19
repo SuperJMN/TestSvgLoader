@@ -7,6 +7,7 @@
     <DefineConstants>$(DefineConstants);__WASM__</DefineConstants>
     <NoWarn>NU1701</NoWarn>
     <MonoRuntimeDebuggerEnabled Condition="'$(Configuration)'=='Debug'">true</MonoRuntimeDebuggerEnabled>
+    <MonoWasmRuntimeConfiguration>release-dynamic</MonoWasmRuntimeConfiguration>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="..\TestSvgLoader.UWP\Assets\*.png" Link="Assets\%(FileName)%(Extension)" />
