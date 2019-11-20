@@ -9,6 +9,6 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
     
-    <uwp:SKXamlCanvas PaintSurface="OnPainting" Tag="logos.svg"/>
+    <uwp:SKXamlCanvas PaintSurface="OnPainting" />
     
 </UserControl>
